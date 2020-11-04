@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXTO DE EJEMPLO"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        >
+
+    </TextView>
+
+</FrameLayout>
